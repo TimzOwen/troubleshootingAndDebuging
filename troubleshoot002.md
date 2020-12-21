@@ -95,3 +95,71 @@ Run one process at a time:
     for pid in $(pidof ffmpeg); do while kill -CONT $pid; do sleep 1; done ;done
 
 #### Monitoring Tools
+
+[System's internal](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
+
+[Linuxperf](http://www.brendangregg.com/linuxperf.html)
+
+[bread egg use method](http://brendangregg.com/usemethod.html)
+
+[Activity monitor in MAc](https://support.apple.com/en-us/HT201464)
+
+[Monitor in Windows](https://www.windowscentral.com/how-use-performance-monitor-windows-10)
+
+[How to use Resource monitor windows](https://www.digitalcitizen.life/how-use-resource-monitor-windows-7)
+
+[System internals](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+
+[Computer cache](https://en.wikipedia.org/wiki/Cache_(computing))
+
+[Linux commands](https://www.reddit.com/r/linux/comments/d7hx2c/why_nice_levels_are_a_placebo_and_have_been_for_a/)
+
+
+#### Writing efficient Code
+
+use profiler:
+
+    Tool that measures the resources that our code is using , giving us a better understanding of what's going on.
+
+gprof---> used to analyze C programs
+cProfile-->Analyze Python programs
+
+Expensive action--->Tasks that take long to complete
+
+#### using the right data structures
+List--> sequence of elements
+Dictionaries -->Store key values pair
+
+
+#### Dealing with expensive Loops
+
+Have to read your data first before looping to save on resources
+
+always rem to break out of loops
+
+#### Keeping local results
+
+create a local cache to avoid getting data each and every time repetitively
+
+create simple variables to make sure we don't keep operations that are not necessary
+
+#### Dealing with slow scripts
+check time execution:
+    time ./scriptToBeChecked.py  "2020-01-20 |Example|test1"
+    Real--->Amount of actual time it took to execute the command
+    USer--->time spent doing operation in the user space
+    Sys-->time spent doing system-level operations
+
+Write out the output:
+    pprofile -f callgrind -o profile.out ./scriptToBeChecked.py  "2020-01-20 |Example|test1"
+checkout the ouput in GUI:
+    kcachegrind profile.out
+
+[Improve your Code](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
+
+
+#### parallelizing Operations
+
+Threads---> Allows us to run multiple parallel tasks inside a process
+
+#### slowly growing in complexity
