@@ -163,3 +163,36 @@ checkout the ouput in GUI:
 Threads---> Allows us to run multiple parallel tasks inside a process
 
 #### slowly growing in complexity
+
+
+
+CSV-->SQLite-->Database server-->Dynamic Cache infront of a server
+
+varnish--->speed up the load of  web on request
+
+Load balancer-->Distribute server among requests and service
+
+#### Dealing with Complex system
+
+Find a bottle neck causing your system to under perform
+
+Have a good monitoring infrastructure
+
+
+#### Using Threads to make things go Faster
+
+Threads--->Makes things work faster
+
+Executor--->Process in charge of Distributing the work among different workers
+
+Future module-->provide a couple of different executors;one for using threads and another using processes
+
+using processes always takes shorter time to execute than Threads because the CPU is well utilized
+
+[Using Concurrency to utilize programs](https://realpython.com/python-concurrency/)
+
+[Complex slow systems](https://realpython.com/python-concurrency/)
+
+[Yielding more fast systems](https://hackernoon.com/threaded-asynchronous-magic-and-how-to-wield-it-bba9ed602c32)
+
+
