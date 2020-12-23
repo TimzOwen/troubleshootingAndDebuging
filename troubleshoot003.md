@@ -197,3 +197,23 @@ BOM-->Byte Oder Mark --->UTF-16 encoding
 [sql alchemy](https://github.com/sqlalchemy/sqlalchemy)
 
 
+#### Crashes in Complex Systems
+
+Try doing Rollback as you solve the issue
+
+#### Communication and documentation During incidents
+
+saves on time
+
+makes sure next user has what it takes to understand the code
+
+Helps in rolling forward and Backward easily because of the available reference
+
+Helpful for communication Leads on the task you are doing and how long it will/has been resolved
+
+Incident commander/controller---->Looks at the big picture and decides what's the best use of available resources
+
+
+#### Writing postmortems
+
+Documents that describes details of incidents to help us learn from our mistakes
