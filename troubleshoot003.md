@@ -155,4 +155,45 @@ Core Files:
     off-by-one-error------->Most common Null point exception
 
 
+#### Debugging a Python crash
+
+pdb3 file.py fileTest.csv-->start python debugger
+
+next------------> Run the command one by one
+
+continue---->Run code until the program crushes
+
+BOM-->Byte Oder Mark --->UTF-16 encoding
+                        -->Tells the difference between files stored as Little-endian & Big-endian
+                    -->UTF-8 --->Doesn't need BOM
+
+
+#### Debugging crashes
+
+[Python Concurrency](https://realpython.com/python-concurrency/)
+
+[Threaded asynchronous Magic](https://hackernoon.com/threaded-asynchronous-magic-and-how-to-wield-it-bba9ed602c32)
+
+[Reasons for segmentation fault](https://stackoverflow.com/questions/33047452/definitive-list-of-common-reasons-for-segmentation-faults)
+
+[Debugging segmentation](https://sites.google.com/a/case.edu/hpcc/home/important-notes-for-new-users/debugging-segmentation-faults)
+
+[New user segmentation](https://sites.google.com/a/case.edu/hpcc/home/important-notes-for-new-users/debugging-segmentation-faults)
+
+#### Readable Python Code on Github
+
+[Mine craft](https://github.com/fogleman/Minecraft)
+
+[cherry py ](https://github.com/cherrypy/cherrypy)
+
+[Flask](https://github.com/pallets/flask)
+
+[Tornado](https://github.com/tornadoweb/tornado)
+
+[How do I](https://github.com/gleitz/howdoi)
+
+[Master ](https://github.com/bottlepy/bottle/blob/master/bottle.py)
+
+[sql alchemy](https://github.com/sqlalchemy/sqlalchemy)
+
 
