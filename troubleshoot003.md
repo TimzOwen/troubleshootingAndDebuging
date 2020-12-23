@@ -118,5 +118,40 @@ Dr.Memory---used in both Windows and Linux
 
 #### Unhandled Errors and Exceptions
 
+Traceback-->Shows the lines of the different functions that were being executed when the problem happened
+
+use Logging module to handle the way you want the code to appear
+
+use print debugging to display the message error to the screen
+
+The logging modules: -->sets debug message to show up when the code fails
+
+#### Fixing someone else's code
+
+Make sure your code is well documented with comments in it.
+
+write unit Test to check what the code is supposed to do
+
+#### Debugging a segmentation fault
+
+Core Files:
+
+    store all info related to the crash so that we can debug what's going on
+
+    ulimit -c unlimited ---->generate the core files
+
+    ls -l core fileTodebug ----> shows when the file crashed and the necessary details of the bug
+
+    gdb -c core fileToCheck-----> pass the gdb debuger
+
+    backtrace--->check the line that caused the error
+            ----->The backtrace command can be used to show a summary of the function calls that were used to the point where the failure occurs.
+
+    size--------> Get to the function that caused the crash
+
+    list----> show the entire function that caused the
+
+    off-by-one-error------->Most common Null point exception
+
 
 
