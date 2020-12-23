@@ -145,7 +145,8 @@ Core Files:
     gdb -c core fileToCheck-----> pass the gdb debuger
 
     backtrace--->check the line that caused the error
-            ----->The backtrace command can be used to show a summary of the function calls that were used to the point where the failure occurs.
+            ----->The backtrace command can be used to show a summary of the function calls 
+                    that were used to the point where the failure occurs.
 
     size--------> Get to the function that caused the crash
 
