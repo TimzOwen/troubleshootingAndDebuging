@@ -504,3 +504,39 @@ print(best_search([1, 3, 5, 7, 9, 10, 2, 4, 6, 8], 10))
 
 print(best_search([5, 1, 8, 2, 4, 10, 7, 6, 3, 9], 11))
 #Should be: Linear: 10 steps, Binary: 5 steps. Best Search is Binary.
+
+
+
+
+
+
+
+# LAB PRACTICE
+# TROUBLESHOOTING  A SLOW COMPUTER
+
+#Install python 3
+
+sudo apt install python3-pip
+
+# install process and system utilities
+pip3 install psutil
+
+# open the interpreter
+
+python3
+
+# import module to check cpu.io
+import psutil
+psutil.cpu_percent()
+
+# check byte received and sent
+psutil.disk_io_counters()
+
+#check network i/o bandwidth
+psutil.net_io_counters()
+
+#exit python sell exit()
+exit()
+
+# basi resync sntax
+rsync [Options] [Source-Files-Dir] [Destination]
