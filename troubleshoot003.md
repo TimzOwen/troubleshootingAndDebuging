@@ -50,3 +50,49 @@ Container:
     Allows application to run in its own environment without affecting the rest of the system
 
 write scripts that pre-format to the s/w issue
+
+
+#### Internal server error
+
+check web sever and connect to it
+
+    ssh webserver
+
+    date --->check date
+
+    cd /var/log/ --->navigate to the logs directory
+
+    /var/log$ ls-lt | head ---->hook the logs and print the first head last modification
+
+    tail syslog----------->check logs form the tail
+
+    sudo netstat -nlp | grep :80 -->find all s/w listening to port 80, use netstat to give network info connection
+                                ---> and append flag p-pid,l-check sockets at port 80
+
+    ls -l /etc/nginx/------->check for configuration files
+
+    ls -l /etc/nginx/sites-enabled/--->check for config specific to nginx
+
+#### Understanding crashes
+
+[Most likely reasons why a computer will crash](https://www.scientificamerican.com/article/why-do-computers-crash/)
+
+[The blue screen of death PC Failure](https://en.wikipedia.org/wiki/Blue_Screen_of_Death)
+
+[Understanding Logs on windows OS ](https://www.digitalmastersmag.com/magazine/tip-of-the-day-how-to-find-crash-logs-on-windows-10/)
+
+[Get geeky with systems Logs in Mac OS](https://www.howtogeek.com/356942/how-to-view-the-system-log-on-a-mac/)
+
+[Check system logs in Linux OS ](https://www.fosslinux.com/8984/how-to-check-system-logs-on-linux-complete-usage-guide.htm)
+
+#### diagnose os Problems
+
+[Windows Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
+
+[strace Linux ](https://www.howtoforge.com/linux-strace-command/)
+
+[Trace system calls Mac Os](https://etcnotes.com/posts/system-call/)
+
+
+### Code that crashes
+
