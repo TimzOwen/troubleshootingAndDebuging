@@ -96,3 +96,27 @@ check web sever and connect to it
 
 ### Code that crashes
 
+
+#### Accessing invalid memory
+
+This means a process tried to access a portion os the system's memory that wasn't assigned to it.
+
+pointers----> Variables that store memory addresses
+
+Always attach debuggers to the apps for easy logging
+
+give debugging symbols---include additional info for debugging
+
+Microsoft compilers can generate debuggers  PDB
+
+undefined behavior--> Code doing something that is not valid in programming language
+
+Valgrind-->powerful tool that tell us if the code is doing any invalid operations no matter if it crashes or not
+            availbale in linux and Mac
+
+Dr.Memory---used in both Windows and Linux
+
+#### Unhandled Errors and Exceptions
+
+
+
