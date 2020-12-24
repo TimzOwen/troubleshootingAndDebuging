@@ -142,3 +142,33 @@ ask for help and explain the problem
 10. write documentation
 
 11. have playbooks-->accumulated solved solutions for all to reference
+
+
+#### planning future resource usage
+
+makes you plan when you need additional resources to avoid last minute rash
+
+write down to track
+
+use a monitoring system to keep you updated of the expectations
+
+NAS-->Network attached storage provide additional storage shelves as web content grows
+
+#### preventing future problems
+
+use short term and work on long term later after problem been solved
+
+Make good use of monitoring -->use one central server for bugs reporting on CPU,Disk,NAS....
+
+Report bug to relevant developers for existing apps
+
+Write test that catches a problem for a s/w you are in charge of
+
+
+#### supplementary Reading
+
+[Effective troubleshooting](https://landing.google.com/sre/sre-book/chapters/effective-troubleshooting/)
+
+[Understanding Failure domains](https://blog.turbonomic.com/blog/on-technology/thinking-like-an-architect-understanding-failure-domains)
+
+[understand problem domain ](https://simpleprogrammer.com/understanding-the-problem-domain-is-the-hardest-part-of-programming/)
