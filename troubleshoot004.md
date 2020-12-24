@@ -63,3 +63,40 @@ Decorator--->Add extra behavior to functions without having to modify the code
 [Pluralsight Memory usage](https://www.pluralsight.com/blog/tutorials/how-to-profile-memory-usage-in-python)
 
 [Troubleshooting network problems](https://www.linuxjournal.com/content/troubleshooting-network-problems)
+
+
+### Managing our Time
+
+#### Getting to important tasks
+
+Create a task board for urgent/not urgent & important/not important
+
+Technical debt-->pending work that accumulates when we choose a quick-and-easy
+                 solution instead of applying a sustainable long-term one
+
+
+#### prioritizing tasks
+
+1. make a list of all tasks that needs to be done
+2. Check the real urgency of a task
+3. Asses the points of each importance of each issue
+4. How much effort it will take
+
+
+#### Estimating the time tasks will take
+
+Compare tasks at hand and similar tasks done before
+
+split large tasks into smaller tasks and do the comparison
+
+include integration time for the split projects
+
+#### communicating expectations
+
+understand users implicit expectations on how long it takes to fix a problem
+
+update a user on critical issues and when it will be resolved
+
+update users on their expected issue or use issue tracking system
+
+[Making the best of our time](https://blog.rescuetime.com/how-to-prioritize/)
