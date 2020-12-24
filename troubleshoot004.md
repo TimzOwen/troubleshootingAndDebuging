@@ -100,3 +100,45 @@ update a user on critical issues and when it will be resolved
 update users on their expected issue or use issue tracking system
 
 [Making the best of our time](https://blog.rescuetime.com/how-to-prioritize/)
+
+
+### Making our future lives easier
+
+#### Dealing with Hard Problems
+
+Brian Kernighan-->Unix OS Contributor and author of C - programming
+    "Debugging is twice hard as writing the software in the first place"
+
+Build simple and easy application to understand
+
+Develop code in small digestible chunks
+
+keep your goal clear -->write test before actual code
+
+Document your code and
+
+ask for help and explain the problem
+
+#### proactive best practices
+
+1. Dealing with bugs
+
+2. Test changes in advance
+
+3. make sure your code has good unit test and integration tests
+
+4. Have a test environment for testing before deploying to users
+
+5. Deploy softwares in phases/canaries if possible
+
+6. set up additional infrastructure
+
+7. include good debugging logs
+
+8. have centralized logs collection
+
+9. Ticketing systems
+
+10. write documentation
+
+11. have playbooks-->accumulated solved solutions for all to reference
